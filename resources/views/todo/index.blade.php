@@ -19,6 +19,7 @@
     </p>
 @endforeach
 
+
 <form method="POST" action="/employee">
     {{ csrf_field() }}
     <input type="text" name='name' placeholder="請輸入東西">
